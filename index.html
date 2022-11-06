@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Generate a <br><span class="green">random password</span></h1>
+    <p>Never use an insecure password again.</p>
+    <button id="generateBtn" onclick="getPassword()">Generate password</button>
+    <hr>
+    <input type="text" id="result" readonly="">
+    <button id="copy-pass" onclick="copy()">Copy</button>
+
+  </div>
+
+  <footer>
+    <p>&copy; alyxnchz</p>
+  </footer>
+
+
+  <script src="app.js"></script>
+</body>
+</html>
